@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<HTML lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../static/CSS/estiloAvalIdoso.css">
+    <title>Medicamentos</title>
+</head>
+
+<header>
+    <div>
+        <img id="logo" height="80" src="../static/fotos/logo.png" lat="icone do logo saude">
+        <h2 id="tituLogo">Ministerio da Saúde</h2>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Perguntas Frequentes</a></li>
+                <li><a href="#">Telefones Úteis</a></li>
+                <li><a href="#">Perfil</a>
+                    <ul>
+                        <li id="conEpri"><a href="#">Exibir Perfil</a></li>
+                        <li><a href="#">Ajuda e suporte</a></li>
+                        <li><a href="#">Alterar Dados</a></li>
+                        <li><a href="index.html">Sair</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<body>
+    <fieldset>
+        <legend>
+            <h3>Medicamentos</h3>
+        </legend><br>
+        <label>Medicamentos, fitoterápicos, suplementos e vitaminas em uso</label>
+        <br><br>
+        <label>Anote os nomes de todos os medicamentos, fitoterápicos, suplementos e vitaminas em uso, prescritos por
+            profissionais de saúde ou na forma de automedicação.</label><br>
+        <form>
+            <table>
+
+                <thead>
+                    <tr>
+                        <td rowspan="2">Nome do medicamento, fitoterápico, suplemento ou vitamina e
+                            concentração</textarea></td>
+                        <td rowspan="2">Dose e frequência</textarea></td>
+                        <td rowspan="2">Data de início ou tempo de uso</td>
+                        <td rowspan="2">Foi prescrito por algum profissional de saúde? Qual?</textarea></td>
+                        <td colspan="2">Suspensão</textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td>Data </td>
+                        <td>Motivo</td>
+                    </tr>
+
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td><textarea rows="2"></textarea></td>
+                        <td><textarea rows="2"></textarea></td>
+                        <td><input type="date"></td>
+                        <td><textarea rows="2"></textarea></td>
+                        <td><input type="date"></td>
+                        <td><textarea rows="2"></textarea></td>
+                    </tr>
+
+                    <br><br>
+
+                </tbody>
+                
+            </table>
+            <button type="submit">Inserir</button>
+        </form>
+    </fieldset><br>
+
+    <fieldset>
+        <table>
+            <thead>
+                <tr>
+                    <td rowspan="2">Polifarmácia</td>
+                    <form>
+                        <td colspan="2">20<input type="number" class="inpuAno"></td>
+                        <td colspan="2">20<input type="number" class="inpuAno"></td>
+                        <td colspan="2">20<input type="number" class="inpuAno"></td>
+                        <td colspan="2">20<input type="number" class="inpuAno"></td>
+                        <td colspan="2">20<input type="number" class="inpuAno"></td>
+                    </form>
+                </tr>
+
+                <tr>
+                    <td>S</td>
+                    <td>N</td>
+
+                    <td>S</td>
+                    <td>N</td>
+
+                    <td>S</td>
+                    <td>N</td>
+
+                    <td>S</td>
+                    <td>N</td>
+
+                    <td>S</td>
+                    <td>N</td>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Uso concomitante de 5 ou mais medicamentos?</td>
+                    <form>
+                        <td><input type="radio" name="sim/nao2" value="sim"></td>
+                        <td><input type="radio" name="sim/nao2" value="nao"></td>
+                        <td><input type="radio" name="sim/nao3" value="sim"></td>
+                        <td><input type="radio" name="sim/nao3" value="nao"></td>
+                        <td><input type="radio" name="sim/nao4" value="sim"></td>
+                        <td><input type="radio" name="sim/nao4" value="nao"></td>
+                        <td><input type="radio" name="sim/nao5" value="sim"></td>
+                        <td><input type="radio" name="sim/nao5" value="nao"></td>
+                        <td><input type="radio" name="sim/nao6" value="sim"></td>
+                        <td><input type="radio" name="sim/nao6" value="nao"></td>
+                    </form>
+                </tr>
+            </tbody>
+        </table><br>
+        <div>
+            <!--Container de mensagem de Alerta contr auto-medicação-->
+            <p id="texto"><strong>NÃO USE MEDICAMENTOS SEM INDICAÇÃO DE UM PROFISSIONAL DE SAÚDE.</strong><br>
+                <strong>A AUTOMEDICAÇÃO PODE TER GRAVES CONSEQUÊNCIAS PARA A SUA SAÚDE</strong>
+            </p>
+            <br><br>
+        </div>
+    </fieldset>
+
+    <span>
+        <input type="submit">
+    </span>
+
+    <footer>
+        <div>
+            <div>
+                <h5 id="ti13n">Desenvolvido por:</h5><p>Grupo 2 da turma TI13N</p>
+            </div>  
+            
+            <div id="equipe">
+                <h6>Integrantes:</h6>
+                <li>Filipe Serra Silva</li>
+                <li>Cristina Alvéstegui Subieta</li>
+                <li>Matheus Leopoldino dos Santos</li>
+                <li>Francisco Pereira de Carvalho Neto</li>  
+            </div>
+
+            <div id="copyright">
+                <h6>CopyRight &copy; 2022. Todos os Direitos Reservados</h6>
+                <h6>Politica de Privacidade</h6>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</HTML>
